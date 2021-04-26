@@ -21,7 +21,7 @@
       },
     
       "web_accessible_resources": [
-        
+        "src/toolbar/index.html"
       ]
     
   
