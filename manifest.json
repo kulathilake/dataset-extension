@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Dataset Extension",
+    "version": "1.0.0",
+  
+    "description": "A cross browser extension to create image datasets by labelling and organizing images on the internet",
+  
+    "icons": {
+      "48": "src/icons/48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*"],
+        "js": ["src/index.js"]
+      }
+    ]
+  
+  }
