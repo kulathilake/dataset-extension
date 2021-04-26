@@ -7,14 +7,22 @@
     "description": "A cross browser extension to create image datasets by labelling and organizing images on the internet",
   
     "icons": {
-      "48": "src/icons/48.png"
+      "48": "src/assets/icons/48.png"
     },
+
+    "permissions": [
+        "activeTab"
+    ],
   
-    "content_scripts": [
-      {
-        "matches": ["*"],
-        "js": ["src/index.js"]
-      }
-    ]
+    "browser_action": {
+        "default_icon": "src/assets/icons/32.png",
+        "default_title": "Dataset Extension",
+        "default_popup": "src/browser-actions/popup/index.html"
+      },
+    
+      "web_accessible_resources": [
+        
+      ]
+    
   
   }
