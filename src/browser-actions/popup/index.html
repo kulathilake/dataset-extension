@@ -3,12 +3,42 @@
     <head>
         <meta charset="utf-8">
         <link rel="stylesheet" href="index.css">
+        <script src="index.js" async defer></script>
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        Dataset Extension
-        <script src="index.js" async defer></script>
+        <div class="popup-container">
+            <div class="popup-header">
+                Rupasutra Dataset Extension
+            </div>
+
+            <div class="popup-content">
+
+                <!-- Page Controls -->
+                <section>
+                    <p class="page-controls">Page</p>
+                    <label for="toggle">Label Images In this Page</label>
+                    <input id="toggle" type="checkbox">
+                </section>
+
+                <!-- Dataset Controls -->
+                <section>
+                    <p class="section-title">Dataset</p>
+                    <label for="dataset-list">Select Dataset</label>
+                    <select id="dataset-list">
+
+                    </select>
+                    <button>Create New</button>
+                </section>
+            </div>
+
+            <footer>
+                Rupasutra Datasets Browser Extension v1.0.0
+                <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            </footer>
+        </div>
+
     </body>
 </html>

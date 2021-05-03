@@ -19,6 +19,7 @@
         "default_title": "Dataset Extension",
         "default_popup": "src/browser-actions/popup/index.html"
       },
+
     
       "web_accessible_resources": [
         "src/toolbar/index.html"

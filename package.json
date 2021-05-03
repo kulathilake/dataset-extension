@@ -32,7 +32,6 @@
     }
   },
   "dependencies": {
-    "save-dev": "0.0.1-security",
     "web-ext": "^6.1.0"
   }
 }
